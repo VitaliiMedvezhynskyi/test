@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('name2') {
+      steps {
+        timestamps()
+      }
+    }
+
   }
 }
